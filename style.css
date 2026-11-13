@@ -1,0 +1,78 @@
+
+    
+/* Navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #e70909;
+}
+
+/* Heading */
+h1 {
+    color: rgb(255, 98, 0);
+    text-align: center;
+}
+
+/* Paragraph */
+p {
+    color: rgb(29, 9, 180);
+}
+
+/* Red section */
+#red {
+    background-color: rgb(251, 6, 6);
+    padding: 20px;
+}
+
+/* Responsive design */
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Mobile phones */
+@media screen and (max-width: 600px) {
+
+    li {
+        float: none;
+        width: 100%;
+    }
+
+    li a {
+        text-align: center;
+        padding: 16px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+}
+  
